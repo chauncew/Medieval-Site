@@ -1,0 +1,215 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url('../images/swords-background.jpg')center/cover;
+    background-position: 50px  5px;
+    background-attachment: fixed;
+}
+
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000;
+    height: 75px;
+}
+
+.list-items a {
+    display: inline-block;
+    text-decoration: none;
+    list-style: none;
+    margin: 0 5px;
+    margin-right: 20px;
+    color: rgb(17, 118, 250);
+    letter-spacing: 1.5px;
+}
+
+
+.logo {
+    font-size: 2.5rem;
+    margin-left: 20px;
+    color: rgb(17, 118, 250);
+}
+
+.image-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 10px;
+}
+
+.image {
+    width: 100%;
+    height: 65vh;
+    background: url('../images/sword-fight1.jpg')center/cover no-repeat;
+    background-position: top 30% right;
+    margin: 0 auto;
+    border: 2px solid #fff;
+    animation: change-bg 10s linear infinite;
+}
+
+.text {
+    align-items: center;
+    border: 2px solid #000;
+    width: 50vw;
+    background: #000;
+    font-size: 1.25rem;
+    color: rgb(17, 118, 250);
+    padding: 10px;
+}
+
+
+
+@keyframes change-bg {
+	0% { background: url(../images/sword-fight1.jpg) center/cover top 30% right; }
+	20% { background: url(../images/sword-fight1.jpg) center/cover; }
+    25% { background: url(../images/sword-fight2.jpg) center/cover; }
+    35% { background: url(../images/sword-fight2.jpg) center/cover; }
+    40% { background: url(../images/sword-fight3.jpg) center/cover; }
+	50% { background: url(../images/sword-fight3.jpg) center/cover; }
+	75% { background: url(../images/sword-fight5.jpg) center/cover; }
+	100% { background: url(../images/sword-fight5.jpg) center/cover; }
+}
+
+#swordsImgHeading {
+    color: #fff;
+    text-align: center;
+    font-family: 'Metal Mania', cursive;
+    letter-spacing: 2.5px;
+    font-weight: lighter;
+    margin: 20px auto;
+    width: 80%;
+}
+
+hr {
+    width: 80%;
+    margin: 20px auto;
+   
+}
+
+.caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 30%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgb(17, 118, 250);
+    transition: all 0.5s;
+    background-color: #000;
+    letter-spacing: 1.2px;
+    transform: translateY(100%) ;
+}
+
+.caption h1 {
+    margin: 0;
+
+}
+
+.caption p {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 0 5px;
+}
+
+.swordImages:hover .caption {
+   transform: translateY(0);
+   transition: 0.5s;
+}
+
+.swordImages:hover img {
+    transform: translateY(-30%);
+    cursor: pointer;
+}
+
+#swordsR1 {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+}
+
+.swordImages {
+    max-width: 1100px;
+    height: 350px;
+    width: 200px;
+    position: relative;
+    overflow: hidden;
+}
+
+.swordImages h1 {
+    font-size: 25px;
+}
+
+.swordImages img {
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+}
+
+
+
+#swordsR2 {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.swordImages2 {
+    max-width: 1100px;
+    height: 350px;
+    width: 200px;
+    position: relative;
+    overflow: hidden;
+}
+
+.swordImages2 img {
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+}
+
+#swordsR3 {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.swordImages3 {
+    max-width: 1100px;
+    height: 350px;
+    width: 200px;
+    position: relative;
+    overflow: hidden;
+}
+
+.swordImages3 img {
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+}
+
+.swords-footer {
+    background: url('../images/footer-pic.jpg')center/cover no-repeat;
+    height: 80px;
+    width: 100%;
+    margin-top: 25px;
+
+}
+
+p {
+    color: rgb(17, 118, 250);
+    letter-spacing: 1.5px;
+    padding-left: 50px;
+    padding-top: 10px;
+}

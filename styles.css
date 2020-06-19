@@ -1,0 +1,358 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    padding: 0;
+    margin: 0;
+    overflow-X: hidden;
+}
+
+body {
+    background: url('images/background-pic.jpg')center/cover;
+    background-attachment: fixed;
+    overflow-X: hidden;
+ 
+}
+
+.main-hr {
+    align-items: center;
+    width: 35%;
+    margin-bottom: 25px;
+}
+
+/*Swords*/
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000;
+    height: 73px;
+    width: 100%;
+}
+
+.list-items a {
+    display: inline-block;
+    text-decoration: none;
+    list-style: none;
+    margin: 0 5px;
+    margin-right: 20px;
+    color: rgb(17, 118, 250);
+    letter-spacing: 1.5px;
+}
+
+
+.logo {
+    font-size: 2.5rem;
+    margin-left: 20px;
+    color: rgb(17, 118, 250);
+}
+
+
+
+.main-swords__heading {
+    text-align: center;
+    color: rgb(17, 118, 250);
+    font-family: 'Playfair Display SC', serif;
+    font-size: 40px;
+    margin: 10px 0;
+}
+
+hr {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.swords-heading {
+    text-align: center;
+    color: gray;
+    margin: 15px 0;
+    letter-spacing: 1.5px;
+    font-family: 'Metal Mania', cursive;
+    font-weight: lighter;
+}
+
+.swords-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+}
+
+.swords {
+    max-width: 1100px;
+    height: 350px;
+    width: 200px;
+    position: relative;
+    overflow: hidden;
+}
+
+ .swords img {
+    width: 100%;
+    height: 100%;
+}
+
+.caption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgb(17, 118, 250);
+    opacity: 0;
+    transition: all 0.5s;
+    background-color: rgba(0,0,0,0);
+    letter-spacing: 1.2px;
+}
+
+.caption h1 {
+    margin: 0;
+
+}
+
+.caption p {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 0 5px;
+}
+
+.swords:hover .caption{
+    opacity: 1;
+    background-color: rgba(0,0,0,0.8);
+}
+
+.swords:hover img {
+    transform: scale(1.3) rotate(15deg);
+    transition: 0.5s;
+}
+
+/*Axes*/
+
+.axes-heading {
+    text-align: center;
+    color: gray;
+    margin: 15px 0;
+    letter-spacing: 1.5px;
+    font-family: 'Metal Mania', cursive;
+    font-weight: lighter;
+}
+
+.ax-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+}
+
+.axes {
+    max-width: 1100px;
+    height: 350px;
+    width: 200px;
+    position: relative;
+    overflow: hidden;
+}
+
+ .axes img {
+    width: 100%;
+    height: 100%;
+}
+
+.caption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgb(17, 118, 250);
+    opacity: 0;
+    transition: all 0.5s;
+    background-color: rgba(0,0,0,0);
+    letter-spacing: 1.2px;
+}
+
+.caption h1 {
+    margin: 0;
+
+}
+
+.caption p {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 0 5px;
+}
+
+.axes:hover .caption{
+    opacity: 1;
+    background-color: rgba(0,0,0,0.8);
+}
+
+.axes:hover img {
+    transform: scale(1.3) rotate(15deg);
+    transition: 0.5s;
+}
+
+/*Daggers*/
+
+
+.daggers-heading {
+    text-align: center;
+    color: gray;
+    margin: 15px 0;
+    letter-spacing: 1.5px;
+    font-family: 'Metal Mania', cursive;
+    font-weight: lighter;
+}
+
+.dagger-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+}
+
+.daggers {
+    max-width: 1100px;
+    height: 350px;
+    width: 200px;
+    position: relative;
+    overflow: hidden;
+}
+
+ .daggers img {
+    width: 100%;
+    height: 100%;
+}
+
+.caption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgb(17, 118, 250);
+    opacity: 0;
+    transition: all 0.5s;
+    background-color: rgba(0,0,0,0);
+    letter-spacing: 1.2px;
+}
+
+.caption h1 {
+    margin: 0;
+
+}
+
+.caption p {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 0 5px;
+}
+
+.daggers:hover .caption{
+    opacity: 1;
+    background-color: rgba(0,0,0,0.8);
+}
+
+.daggers:hover img {
+    transform: scale(1.3) rotate(15deg);
+    transition: 0.5s;
+}
+
+/*Armor*/
+
+
+.armors-heading {
+    text-align: center;
+    color: gray;
+    margin: 15px 0;
+    letter-spacing: 1.5px;
+    font-family: 'Metal Mania', cursive;
+    font-weight: lighter;
+}
+
+.armor-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+}
+
+.armors {
+    max-width: 1100px;
+    height: 350px;
+    width: 200px;
+    position: relative;
+    overflow: hidden;
+}
+
+ .armors img {
+    width: 100%;
+    height: 100%;
+}
+
+.caption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgb(17, 118, 250);
+    opacity: 0;
+    transition: all 0.5s;
+    background-color: rgba(0,0,0,0);
+    letter-spacing: 1.2px;
+}
+
+.caption h1 {
+    margin: 0;
+
+}
+
+.caption p {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 0 5px;
+}
+
+.armors:hover .caption{
+    opacity: 1;
+    background-color: rgba(0,0,0,0.8);
+}
+
+.armors:hover img {
+    transform: scale(1.3) rotate(15deg);
+    transition: 0.5s;
+}
+
+.main-footer {
+    background: url('images/footer-pic.jpg')center/cover no-repeat;
+    height: 80px;
+    width: 100%;
+    margin-top: 25px;
+
+}
+
+p {
+    color: rgb(17, 118, 250);
+    letter-spacing: 1.5px;
+    padding-left: 50px;
+    padding-top: 10px;
+}

@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url('../images/daggers-background.jpg')center/cover;
+    background-attachment: fixed;
+}
+
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000;
+    height: 75px;
+}
+
+.list-items a {
+    display: inline-block;
+    text-decoration: none;
+    list-style: none;
+    margin: 0 5px;
+    margin-right: 20px;
+    color: rgb(17, 118, 250);
+    letter-spacing: 1.5px;
+}
+
+
+.logo {
+    font-size: 2.5rem;
+    margin-left: 20px;
+    color: rgb(17, 118, 250);
+}
