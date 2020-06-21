@@ -17,6 +17,12 @@ body {
     align-items: center;
     background-color: #000;
     height: 75px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow-Y: hidden;
+    z-index: 1;
 }
 
 .list-items a {
@@ -40,7 +46,7 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
-    margin-top: 10px;
+    padding-top: 100px;
 }
 
 .image {
@@ -96,7 +102,7 @@ hr {
     position: absolute;
     bottom: 0;
     left: 0;
-    height: 30%;
+    height: 35%;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -105,7 +111,7 @@ hr {
     text-align: center;
     color: rgb(17, 118, 250);
     transition: all 0.5s;
-    background-color: #000;
+    background-color: rgba(0,0,0,0.9);
     letter-spacing: 1.2px;
     transform: translateY(100%) ;
 }
@@ -127,7 +133,6 @@ hr {
 }
 
 .swordImages:hover img {
-    transform: translateY(-30%);
     cursor: pointer;
 }
 
@@ -135,6 +140,7 @@ hr {
     display: flex;
     justify-content: space-evenly;
     margin: 0 auto;
+    z-index: -1;
 }
 
 .swordImages {
@@ -164,6 +170,10 @@ hr {
     padding-top: 20px;
 }
 
+.swordImages2 h1 {
+    font-size: 25px;
+}
+
 .swordImages2 {
     max-width: 1100px;
     height: 350px;
@@ -178,11 +188,24 @@ hr {
     margin-top: 20px;
 }
 
+.swordImages2:hover .caption {
+    transform: translateY(0);
+    transition: 0.5s;
+ }
+ 
+ .swordImages2:hover img {
+     cursor: pointer;
+ }
+
 #swordsR3 {
     display: flex;
     justify-content: space-evenly;
     margin: 0 auto;
     padding-top: 20px;
+}
+
+.swordImages3 h1 {
+    font-size: 25px;
 }
 
 .swordImages3 {
@@ -198,6 +221,15 @@ hr {
     height: 100%;
     margin-top: 20px;
 }
+
+.swordImages3:hover .caption {
+    transform: translateY(0);
+    transition: 0.5s;
+ }
+ 
+ .swordImages3:hover img {
+     cursor: pointer;
+ }
 
 .swords-footer {
     background: url('../images/footer-pic.jpg')center/cover no-repeat;
