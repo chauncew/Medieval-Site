@@ -153,6 +153,8 @@ hr {
 
 .swordImages h1 {
     font-size: 25px;
+    font-family: 'Metal Mania', cursive;
+    font-weight: lighter;
 }
 
 .swordImages img {
@@ -172,6 +174,8 @@ hr {
 
 .swordImages2 h1 {
     font-size: 25px;
+    font-family: 'Metal Mania', cursive;
+    font-weight: lighter;
 }
 
 .swordImages2 {
@@ -206,6 +210,8 @@ hr {
 
 .swordImages3 h1 {
     font-size: 25px;
+    font-family: 'Metal Mania', cursive;
+    font-weight: lighter;
 }
 
 .swordImages3 {
@@ -236,7 +242,6 @@ hr {
     height: 80px;
     width: 100%;
     margin-top: 25px;
-
 }
 
 p {
