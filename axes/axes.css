@@ -7,6 +7,7 @@
 body {
     background: url('../images/axes-background.jpg')center/cover;
     background-attachment: fixed;
+    position: relative;
 }
 
 
@@ -47,14 +48,20 @@ body {
     font-size: 25px;
 }
 
-// .slider-images {
-//     margin: 0 auto;
-// }
 
-.slider-images img {
-    height: 500px;
-    width: 1200px;
-    align-items: center;
-    margin: auto;
+
+#image-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    padding-top: 20px;
 }
 
+.ax-image {
+    width: 100%;
+    height: 65vh;
+    background: url('../images/axslide1.jpg')center/cover no-repeat;
+    background-position: top 30% right;
+    margin: 0 auto;
+    border: 2px solid #fff;
+}
