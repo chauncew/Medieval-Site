@@ -182,6 +182,7 @@ p {
     transition: all 0.5s;
     letter-spacing: 1.2px;
     transform: translateX(-100%);
+    cursor: pointer;
 }
 
 .caption h1 {
@@ -214,17 +215,20 @@ p {
 .axImages:hover img {
     transform: scale(1.3) rotate(-9deg);
     transition: all 0.5s;
+    cursor: pointer;
 }
 
 .axImages2:hover img {
     transform: scale(1.3) rotate(-9deg);
     transition: all 0.5s;
+    cursor: pointer;
     
 }
 
 .axImages3:hover img {
     transform: scale(1.3) rotate(-9deg);
     transition: all 0.5s;
+    cursor: pointer;
 }
 
 
