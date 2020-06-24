@@ -42,6 +42,14 @@ body {
     color: rgb(17, 118, 250);
 }
 
+.logo img {
+    height: 60px;
+    width: 60px;
+    background-color: rgb(17, 118, 250);
+    padding: 5px;
+    border-radius: 50%;
+}
+
 #axes-heading {
     color: rgb(17, 118, 250);
     text-align: center;
@@ -67,7 +75,11 @@ body {
     border: 2px solid #fff;
 }
 
-
+hr {
+    width: 60%;
+    margin: 30px auto;
+    opacity: 0;
+}
 
 p {
     color: rgb(17, 118, 250);
@@ -91,10 +103,15 @@ p {
     overflow: hidden;
 }
 
+.axImages h1 {
+    font-size: 25px;
+    font-family: 'Metal Mania', cursive;
+    font-weight: lighter;
+}
+
 .axImages img {
     width: 100%;
     height: 100%;
-    margin-top: 20px;
 }
 
 #axR2 {
@@ -112,10 +129,15 @@ p {
     overflow: hidden;
 }
 
+.axImages2 h1 {
+    font-size: 25px;
+    font-family: 'Metal Mania', cursive;
+    font-weight: lighter;
+}
+
 .axImages2 img {
     width: 100%;
     height: 100%;
-    margin-top: 20px;
 }
 
 #axR3 {
@@ -134,11 +156,77 @@ p {
     overflow: hidden;
 }
 
+.axImages3 h1 {
+    font-size: 25px;
+    font-family: 'Metal Mania', cursive;
+    font-weight: lighter;
+}
+
 .axImages3 img {
     width: 100%;
     height: 100%;
-    margin-top: 20px;
 }
+
+.caption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgb(17, 118, 250);
+    transition: all 0.5s;
+    letter-spacing: 1.2px;
+    transform: translateX(-100%);
+}
+
+.caption h1 {
+    margin: 0;
+
+}
+
+.caption p {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 0 5px;
+}
+
+.axImages:hover .caption {
+    background-color: rgba(0,0,0,0.9);
+    transform: translateX(0);
+}
+
+.axImages2:hover .caption {
+    background-color: rgba(0,0,0,0.9);
+    transform: translateX(0);
+}
+
+.axImages3:hover .caption {
+    background-color: rgba(0,0,0,0.9);
+    transform: translateX(0);
+}
+
+
+.axImages:hover img {
+    transform: scale(1.3) rotate(-9deg);
+    transition: all 0.5s;
+}
+
+.axImages2:hover img {
+    transform: scale(1.3) rotate(-9deg);
+    transition: all 0.5s;
+    
+}
+
+.axImages3:hover img {
+    transform: scale(1.3) rotate(-9deg);
+    transition: all 0.5s;
+}
+
 
 .axes-footer {
     background: url('../images/footer-pic.jpg')center/cover no-repeat;
