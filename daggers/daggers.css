@@ -42,3 +42,45 @@ body {
     padding: 5px;
     border-radius: 50%;
 }
+
+.daggers-footer {
+    background: url('../images/footer-pic.jpg')center/cover no-repeat;
+    height: 125px;
+    width: 100%;
+    margin-top: 25px;
+
+}
+
+p {
+    color: rgb(17, 118, 250);
+    letter-spacing: 1.5px;
+    padding-left: 50px;
+    padding-top: 10px;
+}
+
+.social {
+    height: 35px;
+    width: 35px;
+    background: rgb(17, 118, 250);
+    margin-left: 48px;
+    margin-top: 5px;
+    border-radius: 50%;
+    padding: 2px;
+    cursor: pointer;
+}
+
+.socialInfo {
+    display: flex;
+}
+
+.socialIcons {
+    padding-top: 25px;
+}
+
+.social-p {
+    font-size: 25px;
+}
+
+.copyRight {
+    margin-top: 25px;
+}
