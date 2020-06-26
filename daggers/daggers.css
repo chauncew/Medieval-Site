@@ -5,7 +5,7 @@
 }
 
 body {
-    background: url('../images/daggers-background.jpg')center/cover;
+    background: url('../images/daggerBackground.jpg')center/cover;
     background-attachment: fixed;
 }
 
@@ -26,8 +26,13 @@ body {
     margin-right: 20px;
     color: rgb(17, 118, 250);
     letter-spacing: 1.5px;
+    transition: all 0.5s;
 }
 
+.list-items a:hover {
+    color: rgb(114, 169, 240);
+    letter-spacing: 0.2px;
+}
 
 .logo {
     font-size: 2.5rem;
@@ -43,12 +48,21 @@ body {
     border-radius: 50%;
 }
 
+.image-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    padding-top: 100px;
+}
+
 .daggers-footer {
     background: url('../images/footer-pic.jpg')center/cover no-repeat;
     height: 125px;
     width: 100%;
     margin-top: 25px;
-
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
 
 p {
@@ -68,6 +82,7 @@ p {
     padding: 2px;
     cursor: pointer;
 }
+
 
 .socialInfo {
     display: flex;
