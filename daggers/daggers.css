@@ -106,6 +106,19 @@ body {
     animation: 20s slider infinite;
 }
 
+.daggerHeading {
+    font-family: 'Metal Mania', cursive;
+    color: #fff;
+    font-weight: lighter;
+    letter-spacing: 1.5px;
+    text-align: center;;
+}
+
+hr {
+    width: 80%;
+    margin: 20px auto;
+}
+
 .daggers-footer {
     background: url('../images/footer-pic.jpg')center/cover no-repeat;
     height: 125px;
