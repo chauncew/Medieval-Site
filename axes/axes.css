@@ -97,7 +97,7 @@ p {
     display: flex;
     justify-content: space-evenly;
     margin: 20px auto;
-    z-index: -1;
+    margin-bottom: 90px;
 }
 
 .axImages {
@@ -123,7 +123,7 @@ p {
     display: flex;
     justify-content: space-evenly;
     margin: 20 auto;
-    z-index: -1;
+    margin-bottom: 90px;
 }
 
 .axImages2 {
@@ -149,8 +149,7 @@ p {
     display: flex;
     justify-content: space-evenly;
     margin: 20 auto;
-    z-index: -1;
-    margin-top: 28px;
+    margin-bottom: 90px;
 }
 
 .axImages3 {

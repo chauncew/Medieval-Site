@@ -155,7 +155,7 @@ hr {
     display: flex;
     justify-content: space-evenly;
     margin: 0 auto;
-    z-index: -1;
+    margin-bottom: 90px;
 }
 
 .swordImages {
@@ -185,6 +185,7 @@ hr {
     justify-content: space-evenly;
     margin: 0 auto;
     padding-top: 20px;
+    margin-bottom: 90px;
 }
 
 .swordImages2 h1 {
@@ -220,7 +221,7 @@ hr {
     display: flex;
     justify-content: space-evenly;
     margin: 0 auto;
-    padding-top: 20px;
+    margin-bottom: 90px;
 }
 
 .swordImages3 h1 {
